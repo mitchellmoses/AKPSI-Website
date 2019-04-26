@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alpha Kappa Psi</title>
+  <link href='Assets/stylesheet2.css' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<style>
+.marginauto {
+    margin: 10px auto 20px;
+    display: block;
+}
+</style>
+</head>
+<body>
+
+<!-- navbar start -->
+  <nav class="navbar navbar-expand-sm navbar-light bg-light">
+  <div class="container">
+  <a class="navbar-brand" href="newIndex.html">
+    <img src="Assets/akpsi4.jpg" alt="logo">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+   <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+    <ul class="nav navbar-nav navbar-right">
+      <li class="nav-item active">
+        <a class="nav-link" href="newIndex.html">Home</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="newAbout.html">About</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="recruitment.html">Recruitment</i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</i></a>
+      </li>
+    </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar end -->
+
+<section id="feature-three" class="feature-dark" >
+  <div class="container">
+    <div class="row feature-content">
+
+        <div class="col-lg-6 d-none d-md-block">
+          <div id="googleMap" style="width:100%;height:400px;"></div>
+          <script>
+          function myMap() {
+            var mapProp= {
+              center:new google.maps.LatLng(33.948825, -83.387133),
+              zoom:16,
+            };
+            var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+          }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCmCEzbJpWM_EC0IcMvRet0_6o0AzSVp5M&callback=myMap"></script>
+        </div>
+
+        <div class="offset-lg-1 col-lg-5">
+          <h6 class="subhead">CONTACT US</h6>
+          <h2>Find us at 545 South Milledge, Athens GA 30603</h2>
+          <p class="lead">Or get in contact us with us down below</p>
+       </div>
+
+    </div>
+  </div>
+</section>
+<!-- feature 1 start -->
+<section id="feature-one">
+  <div class="container contact-form">
+              <div class="contact-image">
+                  <img src="Assets/akpsiOG.jpg" alt="rocket_contact"/>
+              </div>
+              <form method="post">
+                  <h3>Fill Out the Form For Any Questions</h3>
+                 <div class="row">
+                      <div class="col-md-6">
+                        <form action="mailto:secritaryAE@alphakappapsi.com?subject=Test" method="post" enctype="text/plain" class="form-horizontal">
+                          <div class="form-group">
+                              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                          </div>
+                          <div class="form-group">
+                              <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                          </div>
+                          <div class="form-group">
+                              <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                          </div>
+                          <div class="form-group">
+                              <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                          </div>
+                        </form>
+                      </div>
+                      <div class="col-md-6">
+                          <div class="form-group">
+                              <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                          </div>
+                      </div>
+                  </div>
+              </form>
+  </div>
+</section>
+<!-- feature 1 end -->
+
+<!-- Footer start -->
+
+<footer id="main-footer">
+  <div class="container">
+    <div class="row">
+      <div class="offset-lg-1 col-lg-5">
+        <h6 class="subhead">Find us on Socail Media</h6>
+        <ul class="list-unstyled">
+          <li><a href="https://www.instagram.com/akpsi_uga/">Instagram</a></li>
+          <li><a href="https://www.facebook.com/AKPsiUGA/">Facebook</a></li>
+          <li><a href="https://twitter.com/akpsi?lang=en">Twitter</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-5 offset-lg-1">
+       <h6 class="subhead">Check out our Affiliate Sites</h6>
+        <ul class="list-unstyled">
+          <li><a href="https://akpsi.org/">AKPsi Main Page</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</footer>
+
+<!-- Footer 7 end -->
+
+
+<!-- Jquery and Bootsrap JS -->
+  <section id="carousel">
+ <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
